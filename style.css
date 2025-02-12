@@ -1,6 +1,5 @@
 body { 
     font-family: Arial, sans-serif; 
-<<<<<<< HEAD
     background-color: #f8f8f8; 
     text-align: center; 
 }
@@ -14,76 +13,69 @@ body {
 .card {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     justify-content: space-between;
+    background-color: #f8f8f8;
     transition: transform 0.2s;
     border: 1px solid gray;
     flex-direction: column; 
     border-radius: 10px; 
     background: white; 
     text-align: center; 
+    text-align: center;  
+    display: flex;
     padding: 15px; 
     width: 220px;
-    display: flex;
-=======
-    text-align: center; 
-    background-color: #f8f8f8; 
 }
 .container { 
-    display: flex; 
-    flex-wrap: wrap; 
     justify-content: center; 
+    flex-wrap: wrap; 
+    display: flex;
+    padding: 20px;  
     gap: 15px; 
-    padding: 20px; 
 }
 .card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    justify-content: space-between;
+    transition: transform 0.2s;
     border: 1px solid gray;
-    width: 220px; 
+    flex-direction: column;
     border-radius: 10px; 
     background: white; 
+    text-align: center;
+    display: flex; 
     padding: 15px; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
-    text-align: center; 
-    transition: transform 0.2s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
->>>>>>> 4766b89d2511e8fa66fa7db120394aa9f935e5e8
+    width: 220px;  
 }
 .card:hover { 
     transform: scale(1.05); 
 }
 .card img { 
-<<<<<<< HEAD
+    object-fit: contain; 
+    margin-bottom: 10px; 
     object-fit: contain; 
     margin-bottom: 10px; 
     display: block;  
     margin: 0 auto;
-    height: 150px; 
-    width: 150px; 
-=======
-    width: 150px; 
-    height: 150px; 
-    object-fit: contain; 
-    margin-bottom: 10px; 
     display: block;  
     margin: 0 auto; 
->>>>>>> 4766b89d2511e8fa66fa7db120394aa9f935e5e8
+    height: 150px;  
+    height: 150px; 
+    width: 150px; 
+    width: 150px;
+    
 }
-.price { 
-    font-size: 29px; 
-    color: #d9534f; 
+.price {  
     font-weight: bold; 
+    color: #d9534f; 
+    font-size: 29px;
     margin: 10px;
 }
 .rating { 
-<<<<<<< HEAD
+    justify-content: center; 
     justify-content: center; 
     align-items: center;
-    display: flex;  
-=======
-    display: flex; 
-    justify-content: center; 
     align-items: center; 
->>>>>>> 4766b89d2511e8fa66fa7db120394aa9f935e5e8
+    display: flex;  
+    display: flex; 
     gap: 5px; 
 }
 .stars { 
@@ -93,7 +85,6 @@ body {
     font-size: 14px; 
     color: #777; 
 }
-<<<<<<< HEAD
 .btn {
     border: 1px solid black;  
     border-radius: 25px; 
@@ -123,62 +114,53 @@ body {
     padding: 20px;
     width: 80%;
 }
-=======
 .btn { 
-    padding: 8px 12px; 
     border: 1px solid black; 
     border-radius: 25px; 
+    padding: 8px 12px;
+    margin: 0 auto 0;  
     cursor: pointer; 
-    width: 50%; 
-    margin: 0 auto 0; 
     display: block; 
+    width: 50%; 
 }
 .modal {
-    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
+    overflow: auto;
+    display: none;
     z-index: 1000;
+    height: 100%;
+    width: 100%;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
 }
-
 .modal-content {
     background-color: white;
-    margin: 10% auto;
-    padding: 20px;
     border-radius: 8px;
-    width: 80%;
-    max-width: 500px;
     text-align: center;
+    margin: 10% auto;
+    max-width: 500px;
+    padding: 20px;
+    width: 80%;
 }
-
->>>>>>> 4766b89d2511e8fa66fa7db120394aa9f935e5e8
 .modal-content img {
     max-width: 50%;
     height: auto;
 }
-<<<<<<< HEAD
 .close {
     font-weight: bold;
+    font-size: 28px;
     cursor: pointer;
     color: #aaa;
     float: right;
-    font-size: 28px;
 }
-=======
-
 .close {
+    font-weight: bold;
+    font-size: 28px;
+    cursor: pointer;
     color: #aaa;
     float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
 }
-
->>>>>>> 4766b89d2511e8fa66fa7db120394aa9f935e5e8
 .close:hover {
     color: black;
 }
